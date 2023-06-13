@@ -1,8 +1,12 @@
 @tailwind base;
 @tailwind components;
 
+.btnNav {
+  @apply hidden px-4 py-2 mx-2 text-sm font-semibold rounded-lg shadow-lg font-Inter lg:inline-block xl:inline-block 2xl:inline-block;
+}
+
 .btnWhiteNav {
-  @apply hidden px-4 py-2 mx-2 text-sm font-semibold rounded-lg shadow-lg lg:inline-block xl:inline-block 2xl:inline-block bg-whiteBtnBgColor text-whiteBtnTextColor font-Inter;
+  @apply bg-whiteBtnBgColor text-whiteBtnTextColor;
 }
 .btnWhiteNav:hover {
   @apply bg-whiteBtnBgColorHover;
@@ -11,7 +15,7 @@
   @apply bg-whiteBtnBgColor;
 }
 .btnBlackNav {
-  @apply hidden px-4 py-2 mx-2 text-sm font-semibold rounded-lg shadow-lg lg:inline-block xl:inline-block 2xl:inline-block bg-blackBtnBgColor text-whiteBtnBgColor font-Inter;
+  @apply bg-blackBtnBgColor text-whiteBtnBgColor;
 }
 .btnBlackNav:hover {
   @apply bg-blackBtnColorHover;
