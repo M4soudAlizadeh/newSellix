@@ -1,0 +1,121 @@
+.MainPage__ReadyToSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  background-image: url(https://cdn.sellix.io/static/landing/new/ready-back.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+.MainPage__ReadyToSection--title {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 30%;
+}
+.MainPage__ReadyToSection--title h1 {
+  color: white;
+  margin: 0;
+  font-weight: 800;
+  font-size: 88px;
+  line-height: 106px;
+  margin-bottom: 1.5rem;
+}
+.MainPage__ReadyToSection--title p {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 2.25rem;
+  padding-right: 7rem;
+}
+.MainPage__ReadyToSection--title_btns {
+  margin-bottom: 1.5rem;
+}
+.MainPage__ReadyToSection--title_btns button {
+  padding: 0.7rem 2.5rem;
+  border: 0;
+  border-radius: 10px;
+  margin-right: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: white;
+  color: black;
+}
+.MainPage__ReadyToSection--title_btns button i {
+  margin-left: 0.5rem;
+}
+.MainPage__ReadyToSection--title_btns :last-child {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.MainPage__ReadyToSection--img_digital {
+  width: 27%;
+  padding-right: 5rem;
+}
+@media (max-width: 1440px) {
+  .MainPage__ReadyToSection--title {
+    flex-basis: 55%;
+    padding-left: 2rem;
+  }
+  .MainPage__ReadyToSection--title p {
+    padding-right: 2rem;
+  }
+  .MainPage__ReadyToSection--img_digital {
+    width: 45%;
+    padding-right: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .MainPage__ReadyToSection {
+    flex-direction: column;
+    max-height: 435px;
+  }
+  .MainPage__ReadyToSection--title {
+    text-align: center;
+    transform: translateY(20rem);
+    z-index: 20;
+  }
+  .MainPage__ReadyToSection--img_digital {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .MainPage__ReadyToSection {
+    max-height: 348px;
+  }
+  .MainPage__ReadyToSection--title {
+    transform: translateY(15rem);
+    padding: 0 1rem 0 1rem;
+  }
+  .MainPage__ReadyToSection--title h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+  .MainPage__ReadyToSection--title p {
+    margin: 0 0 1rem 0;
+    font-size: 16px;
+    font-weight: 800;
+    padding-right: 0;
+  }
+}
+@media (max-width: 425px) {
+  .MainPage__ReadyToSection--title {
+    transform: translateY(6rem);
+  }
+  .MainPage__ReadyToSection--title p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .MainPage__ReadyToSection--title_btns button {
+    padding: 0.7rem 1.5rem;
+    font-size: 0.8rem;
+  }
+}

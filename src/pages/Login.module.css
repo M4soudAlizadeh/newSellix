@@ -1,0 +1,229 @@
+.LoginPage__container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.LoginPage__container-FormContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0 4rem 0;
+  overflow: auto;
+  flex: 1 0 auto;
+}
+.LoginPage__container-FormContainer_container {
+  position: relative;
+  width: 500px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0px 1px 3px rgba(7, 14, 35, 0.06),
+    0px 2px 8px -1px rgba(7, 14, 35, 0.05);
+  border-radius: 0.5rem;
+}
+.LoginPage__container-FormContainer_container Link {
+  cursor: pointer;
+}
+.LoginPage__container-FormContainer_container-logo {
+  position: absolute;
+  top: -3.5rem;
+  right: 50%;
+  transform: translate(50%, 0);
+}
+.LoginPage__container-FormContainer_container-logo img {
+  vertical-align: middle;
+}
+.LoginPage__container-FormContainer-form {
+  margin-bottom: 0;
+  width: 100%;
+}
+.LoginPage__container-FormContainer-form_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+.LoginPage__container-FormContainer-form_detail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(100, 100, 100);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.LoginPage__container-FormContainer-form_btnGoogle {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+.LoginPage__container-FormContainer-form_btnGoogle_container {
+  width: 185px;
+  height: 100%;
+  border-radius: 20px;
+  border: 1px solid rgba(187, 187, 187, 0.404);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.LoginPage__container-FormContainer-form_btnGoogle_container-now {
+  display: flex;
+  align-items: center;
+}
+.LoginPage__container-FormContainer-form_btnGoogle_container-now_logo {
+  height: 18px;
+  max-width: 18px;
+  max-height: 18px;
+  width: 18px;
+  margin-right: 8px;
+}
+.LoginPage__container-FormContainer-form_btnGoogle_container-now_logo img {
+  height: 100%;
+  width: 100%;
+}
+.LoginPage__container-FormContainer-form_btnGoogle_container-now span {
+  font-size: 14px;
+  flex-grow: 1;
+  font-family: "Google Sans", arial, sans-serif;
+  font-weight: 550;
+  color: rgb(109, 109, 109);
+}
+.LoginPage__container-FormContainer-form_line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+}
+.LoginPage__container-FormContainer-form_line-main {
+  width: 45%;
+  border: 0.1px solid rgba(235, 235, 235, 0.699);
+}
+.LoginPage__container-FormContainer-form_line-span {
+  font-size: 14px;
+  padding: 0 1rem;
+  color: rgb(156, 156, 156);
+}
+.LoginPage__container-FormContainer-form_firstSection {
+  margin-bottom: 1.5rem;
+}
+.LoginPage__container-FormContainer-form_firstSection-firstlabel {
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  color: rgb(100, 100, 100);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.LoginPage__container-FormContainer-form_firstSection-firstlabel a {
+  text-decoration: none;
+  color: rgb(77, 77, 252);
+  cursor: pointer;
+}
+.LoginPage__container-FormContainer-form_firstSection-firstinput {
+  appearance: none;
+  border: 1px solid rgba(235, 235, 235, 0.699);
+  box-shadow: inset 0 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 0.5rem;
+  background: white;
+  width: 100%;
+  padding: 0 14px;
+  transition: border 0.3s ease !important;
+  height: 40px;
+  max-height: 40px;
+  outline: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgb(100, 100, 100);
+}
+.LoginPage__container-FormContainer-form_firstSection-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background-color: black;
+  color: rgb(236, 235, 235);
+  font-size: 14px;
+  font-weight: 600;
+}
+.LoginPage__container-FormContainer_container-signup {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: rgb(100, 100, 100);
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LoginPage__container-FormContainer_container-signup a {
+  text-decoration: none;
+  margin-left: 0.25rem;
+  color: rgb(77, 77, 252);
+}
+.LoginPage__container-Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgb(100, 100, 100);
+}
+.LoginPage__container-Footer_links {
+  padding-left: 0.75rem;
+  margin-left: 0.75rem;
+  border-left: 1px solid rgba(100, 100, 100, 0.123);
+}
+.LoginPage__container-Footer_links span {
+  margin-right: 0.75rem;
+}
+.LoginPage__container-Footer_links a {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+  margin-right: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .LoginPage__container {
+    padding: 2rem 0 2rem 0;
+  }
+  .LoginPage__container-FormContainer {
+    padding-bottom: 3rem;
+  }
+  .LoginPage__container-FormContainer_container {
+    width: calc(100% - 2rem);
+    padding: 1rem;
+  }
+  .LoginPage__container-FormContainer-form_title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .LoginPage__container-FormContainer-form_detail {
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 1.25rem;
+  }
+}

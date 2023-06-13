@@ -1,0 +1,31 @@
+.MainPage__FooterSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid gray;
+  height: 7vh;
+  color: rgb(85, 85, 85);
+  padding: 0 3rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.MainPage__FooterSection div {
+  text-align: right;
+  width: 40%;
+}
+.MainPage__FooterSection div i {
+  margin-left: 1rem;
+}
+@media (max-width: 965px) {
+  .MainPage__FooterSection {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .MainPage__FooterSection p {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .MainPage__FooterSection div {
+    text-align: center;
+  }
+}

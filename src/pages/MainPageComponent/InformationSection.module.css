@@ -1,0 +1,119 @@
+.MainPage__InformationSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.MainPage__InformationSection--detail {
+  border-right: 1px solid rgba(151, 151, 151, 0.288);
+  width: 30%;
+  padding: 5rem 1rem 9rem 1rem;
+}
+
+.MainPage__InformationSection--detail_items h1 {
+  margin: 0;
+}
+.MainPage__InformationSection--detail_items p {
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+  width: 80%;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.MainPage__InformationSection--detail_items div button {
+  padding: 1rem 1rem;
+  border: 0;
+  border-radius: 10px;
+  margin-right: 1rem;
+  font-size: 0.7rem;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+}
+.MainPage__InformationSection--detail_items-supp {
+  width: 60%;
+  height: 20%;
+  border-radius: 20px;
+  background-color: white;
+  margin-top: 3rem;
+  padding: 1rem 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MainPage__InformationSection--Links {
+  padding: 0 5rem 10rem 2rem;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.MainPage__InformationSection--Links div {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+.MainPage__InformationSection--Links div h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.MainPage__InformationSection--Links div a {
+  margin: 5px 0;
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+@media (max-width: 965px) {
+  .MainPage__InformationSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  .MainPage__InformationSection--detail {
+    width: 100%;
+    border-right: 1px solid rgba(151, 151, 151, 0.288);
+    padding: 1rem;
+  }
+  .MainPage__InformationSection--detail p {
+    width: 100%;
+  }
+  .MainPage__InformationSection--detail_items div button {
+    padding: 1rem 1.5rem;
+  }
+  .MainPage__InformationSection--detail_items-supp {
+    margin-top: 1rem;
+    padding: 0.5rem 8rem;
+  }
+  .MainPage__InformationSection--Links {
+    margin-top: 1rem;
+    background-color: white;
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .MainPage__InformationSection--Links div {
+    width: 40%;
+  }
+  .MainPage__InformationSection--Links div h3 {
+    font-size: 14px;
+  }
+  .MainPage__InformationSection--Links div a {
+    font-size: 14px;
+  }
+}

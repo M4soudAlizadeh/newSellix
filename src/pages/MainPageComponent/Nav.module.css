@@ -1,0 +1,92 @@
+.MainPage__Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+.MainPage__Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  width: 100%;
+  max-width: 1440px;
+  height: 5rem;
+}
+.MainPage__Nav--Items {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  width: 50vw;
+}
+.MainPage__Nav--Items img {
+  width: 71px;
+  height: 20px;
+}
+.MainPage__Nav--Items h1 {
+  font-weight: 900;
+  color: black;
+}
+.MainPage__Nav--Items a {
+  text-decoration: none;
+}
+.MainPage__Nav--Items-List {
+  display: flex;
+  list-style: none;
+}
+.MainPage__Nav--Items-List li {
+  margin-left: 1.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+.MainPage__Nav--Items-List li :last-child {
+  font-weight: 900;
+}
+.MainPage__Nav--btns_white,
+.MainPage__Nav--btns_black {
+  padding: 0.7rem 1rem;
+  border: 0;
+  border-radius: 10px;
+  margin-right: 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: 700;
+  background-color: white;
+}
+
+.MainPage__Nav--btns button i {
+  margin-left: 0.5rem;
+}
+.MainPage__Nav--btns_black {
+  background-color: black;
+  color: white;
+}
+.MainPage__Nav--bars {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .MainPage__Nav--Items-List_links {
+    display: none;
+  }
+}
+@media (max-width: 965px) {
+  .MainPage__Nav {
+    padding: 0 1.5rem;
+    height: 56px;
+  }
+  .MainPage__Nav--bars {
+    display: block;
+    margin-left: 1rem;
+  }
+  .MainPage__Nav--Items-List {
+    display: none;
+  }
+  .MainPage__Nav--btns {
+    display: none;
+  }
+}

@@ -1,0 +1,74 @@
+.MainPage__PowerSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background: rgb(44, 53, 54);
+  background: linear-gradient(
+    259deg,
+    rgba(44, 53, 54, 1) 19%,
+    rgba(50, 44, 49, 1) 41%,
+    rgba(7, 36, 46, 1) 72%,
+    rgba(106, 100, 87, 1) 100%
+  );
+  padding: 4rem 1.5rem;
+  margin: 0 auto;
+}
+
+.MainPage__PowerSection p {
+  font-size: 1.5rem;
+  color: white;
+}
+.MainPage__PowerSection div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60%;
+  max-width: 800px;
+  margin: 3rem 0;
+}
+.MainPage__PowerSection div img {
+  margin: 15px 0.5rem;
+}
+.MainPage__PowerSection a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .MainPage__PowerSection p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    margin: 0 0 2.5rem 0;
+  }
+  .MainPage__PowerSection div {
+    width: 80%;
+    margin-top: 0;
+  }
+  .MainPage__PowerSection div img {
+    width: 20%;
+  }
+  .MainPage__PowerSection a {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 768px) {
+  .MainPage__PowerSection div {
+    width: 100%;
+  }
+  .MainPage__PowerSection div img {
+    width: 15%;
+  }
+}
+@media (max-width: 425px) {
+  .MainPage__PowerSection div img {
+    width: 40%;
+    margin: 15px 0.5rem;
+  }
+}

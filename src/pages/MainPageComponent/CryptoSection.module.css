@@ -1,0 +1,81 @@
+.MainPage__CryptoSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+  width: 100%;
+}
+.MainPage__CryptoSection h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.MainPage__CryptoSection p {
+  width: 50%;
+  max-width: 720px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.MainPage__CryptoSection button {
+  padding: 0.7rem 1rem;
+  border: 0;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.534);
+  margin-top: 1rem;
+}
+.MainPage__CryptoSection button i {
+  margin-left: 0.5rem;
+}
+@media (max-width: 1024px) {
+  .MainPage__CryptoSection {
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .MainPage__CryptoSection {
+    margin: 3rem 0;
+  }
+  .MainPage__CryptoSection img {
+    width: 95%;
+    height: 70%;
+  }
+  .MainPage__CryptoSection h1 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 800;
+    margin-bottom: 0;
+  }
+  .MainPage__CryptoSection p {
+    font-size: 1rem;
+    width: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .MainPage__CryptoSection {
+    margin-top: 0;
+    height: auto;
+  }
+  .MainPage__CryptoSection img {
+    width: 90%;
+    height: 70%;
+  }
+  .MainPage__CryptoSection h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .MainPage__CryptoSection p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
