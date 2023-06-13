@@ -13,9 +13,9 @@ const InformationSection = () => {
           </p>
           <p>Take a look at our roadmap to see what will be released soon.</p>
           <p>Sellix Business for iOS & Android</p>
-          <div>
-            <button>App Store</button>
-            <button>Google Play</button>
+          <div className="mt-5">
+            <button className="btnBlack">App Store</button>
+            <button className="btnBlack">Google Play</button>
           </div>
           <div
             className={

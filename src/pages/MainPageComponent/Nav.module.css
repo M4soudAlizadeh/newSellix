@@ -46,7 +46,7 @@
 .MainPage__Nav--Items-List li :last-child {
   font-weight: 900;
 }
-.MainPage__Nav--btns_white,
+/* .MainPage__Nav--btns_white,
 .MainPage__Nav--btns_black {
   padding: 0.7rem 1rem;
   border: 0;
@@ -56,7 +56,7 @@
   cursor: pointer;
   font-weight: 700;
   background-color: white;
-}
+} */
 
 .MainPage__Nav--btns button i {
   margin-left: 0.5rem;

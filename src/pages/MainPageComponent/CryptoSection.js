@@ -11,8 +11,8 @@ const CryptoSection = () => {
         Sellix provides you with the latest technologies, offering you a simple
         solution to sell your digital goods with cryptocurrencies
       </p>
-      <button>
-        View Fees<i className="fa fa-arrow-right"></i>
+      <button className="btnWhiteBaner">
+        View Fees<i className="ml-2x fa fa-arrow-right"></i>
       </button>
     </div>
   );

@@ -9,9 +9,15 @@ const AppSection = () => {
           Sellix is now available to be downloaded on mobile devices around the
           world on the App & Play Stores.
         </p>
-        <div className={classes["MainPage__AppSection--title_btns"]}>
-          <button>App Store</button>
-          <button>Google Play</button>
+        <div className="mt-10">
+          <button className="btnBlack">
+            <i class="mr-2 fa fa-apple"></i>
+            App Store
+          </button>
+          <button className="btnBlack">
+            <i class="fab fa-google-play"></i>
+            Google Play
+          </button>
         </div>
       </div>
       <img

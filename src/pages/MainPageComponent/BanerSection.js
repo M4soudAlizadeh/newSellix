@@ -13,14 +13,14 @@ const BanerSection = () => {
           Sell subscriptions, tokens, serial keys, digital downloads, video
           courses, softwares and licenses in a fast, easy and secure way.
         </p>
-        <div className={classes["MainPage__BanerSection--title_btns"]}>
-          <button>
+        <div className="mb-10">
+          <button className="btnBlack">
             Get Started
-            <i className="fa fa-arrow-right"></i>
+            <i className="ml-2 fa fa-arrow-right"></i>
           </button>
-          <button>
+          <button className="btnWhite">
             Pricing
-            <i className="fa fa-arrow-right"></i>
+            <i className="ml-2 fa fa-arrow-right"></i>
           </button>
         </div>
         <div className={classes["MainPage__BanerSection--title_rank"]}>

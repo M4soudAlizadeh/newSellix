@@ -25,10 +25,10 @@
   line-height: 32px;
   margin-bottom: 2rem;
 }
-.MainPage__BanerSection--title_btns {
+/* .MainPage__BanerSection--title_btns {
   margin-bottom: 1.5rem;
-}
-.MainPage__BanerSection--title_btns button {
+} */
+/* .MainPage__BanerSection--title_btns button {
   padding: 1rem 1.5rem;
   border: 0;
   border-radius: 10px;
@@ -39,14 +39,14 @@
   font-weight: 600;
   background-color: black;
   color: white;
-}
-.MainPage__BanerSection--title_btns button i {
+} */
+/* .MainPage__BanerSection--title_btns button i {
   margin-left: 0.5rem;
-}
-.MainPage__BanerSection--title_btns :last-child {
+} */
+/* .MainPage__BanerSection--title_btns :last-child {
   background-color: white;
   color: black;
-}
+} */
 .MainPage__BanerSection--title span img {
   margin-left: 0.5rem;
 }

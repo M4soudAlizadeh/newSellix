@@ -1,5 +1,31 @@
 @tailwind base;
 @tailwind components;
+
+.btnWhiteNav {
+  @apply px-4 py-2 mx-2 text-sm font-semibold rounded-lg shadow-lg bg-whiteBtnBgColor text-whiteBtnTextColor font-Inter;
+}
+.btnWhiteNav:hover {
+  @apply bg-whiteBtnBgColorHover;
+}
+.btnWhiteNav:active {
+  @apply bg-whiteBtnBgColor;
+}
+.btnBlackNav {
+  @apply px-4 py-2 mx-2 text-sm font-semibold rounded-lg shadow-lg bg-blackBtnBgColor text-whiteBtnBgColor font-Inter;
+}
+.btnBlackNav:hover {
+  @apply bg-blackBtnColorHover;
+}
+.btnWhite {
+  @apply px-5 py-2.5 mx-2 font-semibold rounded-lg shadow-sm bg-whiteBtnBgColor text-whiteBtnTextColor font-Inter;
+}
+.btnTrans {
+  @apply px-5 py-2.5 mx-2 font-semibold rounded-lg shadow-sm bg-transColor text-whiteBtnBgColor font-Inter border-2;
+}
+.btnBlack {
+  @apply px-5 py-2.5 mx-2 font-semibold rounded-lg shadow-lg bg-blackBtnBgColor text-whiteBtnBgColorHover font-Inter;
+}
+
 @tailwind utilities;
 body {
   margin: 0;
@@ -13,4 +39,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

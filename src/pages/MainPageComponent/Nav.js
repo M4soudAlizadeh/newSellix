@@ -40,15 +40,13 @@ const Nav = () => {
             </a>
           </ul>
         </div>
-        <div className={classes["MainPage__Nav--btns"]}>
+        <div>
           <NavLink to="/Login">
-            <button className={classes["MainPage__Nav--btns_white"]}>
-              Login
-            </button>
+            <button className="btnWhiteNav">Login</button>
           </NavLink>
-          <button className={classes["MainPage__Nav--btns_black"]}>
+          <button className="btnBlackNav">
             Get Started
-            <i className="fa fa-arrow-right"></i>
+            <i className="ml-2 fa fa-arrow-right"></i>
           </button>
         </div>
         <div className={classes["MainPage__Nav--bars"]}>

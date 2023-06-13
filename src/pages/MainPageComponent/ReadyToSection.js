@@ -10,14 +10,14 @@ const ReadyToSection = () => {
           business online with Sellix - a powerful e-commerce solution that lets
           you create a custom store in just a couple of clicks.
         </p>
-        <div className={classes["MainPage__ReadyToSection--title_btns"]}>
-          <button>
+        <div className="mt-10">
+          <button className="btnWhite">
             Get Started
-            <i className="fa fa-arrow-right"></i>
+            <i className="ml-2 fa fa-arrow-right"></i>
           </button>
-          <button>
+          <button className="btnTrans">
             Pricing
-            <i className="fa fa-arrow-right"></i>
+            <i className="ml-2 fa fa-arrow-right"></i>
           </button>
         </div>
       </div>
