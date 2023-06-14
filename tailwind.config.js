@@ -40,7 +40,11 @@ module.exports = {
     variants: {
       backgroundColor: ["responsive", "hover", "focus", "active"],
     },
-    extend: {},
+    extend: {
+      maxWidth: {
+        MaxW: "1376px",
+      },
+    },
   },
   plugins: [],
 };
