@@ -4,7 +4,7 @@ const BanerSection = () => {
   return (
     <div className="banerAndapp">
       <div className="banerAndappDetail">
-        <span className="banerAndappDetail-span text-[88px] whitespace-nowrap mdMax:text-center mdMax:!text-[40px] mdMax:!leading-[48px]">
+        <span className="banerAndappDetail-span text-[88px] whitespace-nowrap mdMax:text-center lgMax:text-7xl mdMax:!text-[40px] mdMax:!leading-[48px]">
           Digital selling
           <br /> with ease
         </span>

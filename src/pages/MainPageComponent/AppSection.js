@@ -1,5 +1,3 @@
-import classes from "./AppSection.module.css";
-
 const AppSection = () => {
   return (
     <div className="banerAndapp">
