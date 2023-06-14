@@ -4,38 +4,39 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <header className={classes["MainPage__Header"]}>
-      <nav className={classes["MainPage__Nav"]}>
-        <div className={classes["MainPage__Nav--Items"]}>
+    <header className="flex items-center justify-center">
+      <nav className="flex items-center justify-between w-full lg:h-20 h-14 pl-5 max-w-[1376px]">
+        <div className="flex items-center w-[70%]">
           <a href="_">
             <img
+              className="h-5 w-18"
               src="https://asset.brandfetch.io/idMweYxyV_/idl8-Z71mD.svg"
               alt="sellix logo"
             />
           </a>
-          <ul className={classes["MainPage__Nav--Items-List"]}>
+          <ul className="flex ml-12 text-base font-medium font-Inter lgMax:hidden">
             <a href="_">
               <li>Features</li>
             </a>
-            <a href="_">
+            <a href="_" className="ml-7">
               <li>Pricing</li>
             </a>
-            <a href="_">
+            <a href="_" className="ml-7">
               <li>Fees</li>
             </a>
-            <a href="_">
+            <a href="_" className="ml-7">
               <li>Resources</li>
             </a>
-            <a href="_" className={classes["MainPage__Nav--Items-List_links"]}>
+            <a href="_" className="ml-7">
               <li>Blog</li>
             </a>
-            <a href="_" className={classes["MainPage__Nav--Items-List_links"]}>
+            <a href="_" className="ml-7">
               <li>Stories</li>
             </a>
-            <a href="_" className={classes["MainPage__Nav--Items-List_links"]}>
+            <a href="_" className="ml-7">
               <li>ICOs</li>
             </a>
-            <a href="_">
+            <a href="_" className="ml-7 lgMax2:hidden">
               <li>Sellix-Pay</li>
             </a>
           </ul>
@@ -49,7 +50,7 @@ const Nav = () => {
             <i className="ml-2 fa fa-arrow-right"></i>
           </button>
         </div>
-        <div className={classes["MainPage__Nav--bars"]}>
+        <div className="hidden pr-5 lgMax:inline-block">
           <i className="fa fa-bars" style={{ fontSize: "25px" }}></i>
         </div>
       </nav>

@@ -1,6 +1,6 @@
 @tailwind base;
 @tailwind components;
-/* start make and merge all style btns */
+/* start make and merge all btns style */
 .btnNav {
   @apply hidden px-4 py-2 mx-2 text-sm font-semibold rounded-lg shadow-lg font-Inter lg:inline-block xl:inline-block 2xl:inline-block;
 }
@@ -25,7 +25,7 @@
 .btnBlack {
   @apply bg-blackBtnBgColor text-whiteBtnBgColorHover;
 }
-/* start make and merge all style btns */
+/* start make and merge all btns style */
 
 @tailwind utilities;
 body {
