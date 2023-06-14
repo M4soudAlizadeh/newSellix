@@ -8,13 +8,18 @@ module.exports = {
 
       md: "768px",
       // => @media (min-width: 768px) { ... }
+      mdMax: { max: "770px" },
+      // => @media (max-width: 770px) { ... }
 
       lg: "968px",
       // => @media (min-width: 1024px) { ... }
+
       lgMax: { max: "968px" },
       // => @media (max-width: 968px) { ... }
+
       lgMax2: { max: "1097px" },
       // => @media (max-width: 1097px) { ... }
+
       xl: "1280px",
       // => @media (min-width: 1280px) { ... }
 
