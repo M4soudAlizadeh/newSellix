@@ -59,17 +59,17 @@
   background-color: black;
   color: white;
 } */
-
+/* 
 @media (max-width: 1024px) {
   .MainPage__Nav--Items-List_links {
     display: none;
   }
-}
-@media (max-width: 965px) {
-  /* .MainPage__Nav {
+} */
+/* @media (max-width: 965px) {
+  .MainPage__Nav {
     padding: 0 1.5rem;
     height: 56px;
-  } */
+  }
   .MainPage__Nav--bars {
     display: block;
     margin-left: 1rem;
@@ -80,4 +80,4 @@
   .MainPage__Nav--btns {
     display: none;
   }
-}
+} */

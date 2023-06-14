@@ -1,11 +1,11 @@
-import classes from "./Nav.module.css";
+// import classes from "./Nav.module.css";
 import "font-awesome/css/font-awesome.min.css";
 import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
     <header className="flex items-center justify-center">
-      <nav className="flex items-center justify-between w-full lg:h-20 h-14 pl-5 max-w-[1376px]">
+      <nav className="flex items-center justify-between w-full lg:h-20 h-14 pl-5 pr-3 max-w-[1376px]">
         <div className="flex items-center w-[70%]">
           <a href="_">
             <img
@@ -27,16 +27,16 @@ const Nav = () => {
             <a href="_" className="ml-7">
               <li>Resources</li>
             </a>
-            <a href="_" className="ml-7">
+            <a href="_" className="ml-7 lgMax2:hidden">
               <li>Blog</li>
             </a>
-            <a href="_" className="ml-7">
+            <a href="_" className="ml-7 lgMax2:hidden">
               <li>Stories</li>
             </a>
-            <a href="_" className="ml-7">
+            <a href="_" className="ml-7 lgMax2:hidden">
               <li>ICOs</li>
             </a>
-            <a href="_" className="ml-7 lgMax2:hidden">
+            <a href="_" className="ml-7">
               <li>Sellix-Pay</li>
             </a>
           </ul>
