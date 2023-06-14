@@ -1,4 +1,4 @@
-.MainPage__AppSection {
+/* .MainPage__AppSection {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -22,7 +22,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-}
+} */
 /* .MainPage__AppSection--title_btns {
   margin-bottom: 1.5rem;
 } */
@@ -45,7 +45,7 @@
   background-color: white;
   color: black;
 } */
-
+/* 
 .MainPage__AppSection--img_digital {
   padding-top: 20rem;
   width: 40%;
@@ -119,4 +119,4 @@
   .MainPage__AppSection--img_digital {
     width: 90%;
   }
-}
+} */
