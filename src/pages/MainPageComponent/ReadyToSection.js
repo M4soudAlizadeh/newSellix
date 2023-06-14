@@ -11,11 +11,11 @@ const ReadyToSection = () => {
           you create a custom store in just a couple of clicks.
         </p>
         <div className="mt-10">
-          <button className="btnWhite">
+          <button className="btnBody btnWhite">
             Get Started
             <i className="ml-2 fa fa-arrow-right"></i>
           </button>
-          <button className="btnTrans">
+          <button className="btnBody btnTrans">
             Pricing
             <i className="ml-2 fa fa-arrow-right"></i>
           </button>

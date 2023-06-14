@@ -10,11 +10,11 @@ const AppSection = () => {
           world on the App & Play Stores.
         </p>
         <div className="mt-10 md:mt-5 sm:mt-0">
-          <button className="btnBlack">
+          <button className="btnBody btnBlack">
             <i class="mr-2 fa fa-apple"></i>
             App Store
           </button>
-          <button className="btnBlack">
+          <button className="btnBody btnBlack">
             <i class="fab fa-google-play"></i>
             Google Play
           </button>

@@ -42,9 +42,9 @@ const Nav = () => {
         </div>
         <div>
           <NavLink to="/Login">
-            <button className="btnNav btnWhiteNav">Login</button>
+            <button className="btnNav btnWhite">Login</button>
           </NavLink>
-          <button className="btnNav btnBlackNav">
+          <button className="btnNav btnBlack">
             Get Started
             <i className="ml-2 fa fa-arrow-right"></i>
           </button>
