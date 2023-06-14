@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Nav = () => {
   return (
     <header className="flex items-center justify-center">
-      <nav className="flex items-center justify-between w-full lg:h-20 h-14 pl-5 pr-3 max-w-MaxW ">
+      <nav className="flex items-center justify-between w-full pl-5 pr-3 lg:h-20 h-14">
         <div className="flex items-center w-[70%]">
           <a href="_">
             <img

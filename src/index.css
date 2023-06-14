@@ -14,7 +14,7 @@
   @apply bg-blackBtnColorHover;
 }
 .btnBody {
-  @apply px-5 py-2.5 mx-2 font-semibold rounded-lg shadow-sm font-Inter;
+  @apply px-5 py-2.5 mx-2 font-semibold rounded-lg shadow-sm font-Inter mdMax:text-sm mdMax:leading-4;
 }
 .btnTrans {
   @apply border-2 bg-transColor text-whiteBtnBgColor;

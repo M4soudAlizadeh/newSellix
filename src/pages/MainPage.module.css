@@ -1,6 +1,7 @@
 .MainPage {
   opacity: 1;
   display: block;
+  font-family: "Inter";
   position: absolute;
   top: 0;
   width: 100%;
@@ -11,5 +12,7 @@
   z-index: -1;
   left: 50%;
   transform: translateX(-50%);
+  max-width: 1440px;
+  /* max-width: 1376px; */
   max-height: 900px;
 }

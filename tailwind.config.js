@@ -19,7 +19,7 @@ module.exports = {
       lgMax: { max: "968px" },
       // => @media (max-width: 968px) { ... }
 
-      lgMax2: { max: "1097px" },
+      lgMax2: { max: "1109px" },
       // => @media (max-width: 1097px) { ... }
 
       xl: "1280px",
@@ -42,11 +42,7 @@ module.exports = {
     variants: {
       backgroundColor: ["responsive", "hover", "focus", "active"],
     },
-    extend: {
-      maxWidth: {
-        MaxW: "1376px",
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };

@@ -1,7 +1,7 @@
 import classes from "./FooterSection.module.css";
 const FooterSection = () => {
   return (
-    <div className="flex items-center justify-between px-5 mx-auto text-sm h-28 max-w-MaxW mdMax:flex-col mdMax:justify-evenly smMax:text-xs">
+    <div className="flex items-center justify-between px-5 mx-auto text-sm h-28 mdMax:flex-col mdMax:justify-evenly smMax:text-xs">
       <p className="text-center ">
         Copyright 2023, Sellix SRL All Rights Reserved.
       </p>

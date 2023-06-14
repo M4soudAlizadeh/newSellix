@@ -79,6 +79,7 @@
   border-radius: 20px;
   max-width: 90%;
   max-height: 100%;
+  margin: 0 auto;
 }
 .TestPage__PostContainer-LinksContainer {
   display: flex;
