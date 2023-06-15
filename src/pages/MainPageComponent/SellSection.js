@@ -2,16 +2,14 @@ import classes from "./SellSection.module.css";
 const SellSection = () => {
   return (
     <div className="fourComponentContainer">
-      <div className="w-[calc(55%-1rem)]">
-        <div className="my-6 text-[40px] leading-[48px] font-extrabold">
-          Sell
-        </div>
-        <p className="mb-16 text-lg font-normal leading-7">
+      <div className="fourComponentContainer_deatailCont">
+        <div>Sell</div>
+        <p>
           With everything powered by a single platform, you don’t have to choose
           just one type of digital product.
         </p>
-        <div className="flex flex-wrap">
-          <a href="_" className="fourComponentContainer-items">
+        <div className="fourComponentContainer-itemsContainer">
+          <a href="_">
             <i class="fa fa-address-card-o"></i>
             <h2>Software</h2>
             <p>
@@ -19,7 +17,7 @@ const SellSection = () => {
               to 5GB of cloud storage.
             </p>
           </a>
-          <a href="_" className="fourComponentContainer-items">
+          <a href="_">
             <i class="fa fa-address-card-o"></i>
             <h2>Services</h2>
             <p>
@@ -27,7 +25,7 @@ const SellSection = () => {
               battle-tested platform.
             </p>
           </a>
-          <a href="_" className="fourComponentContainer-items">
+          <a href="_">
             <i class="fa fa-address-card-o"></i>
             <h2>Subscriptions</h2>
             <p>
@@ -35,7 +33,7 @@ const SellSection = () => {
               all. All simply integrated.
             </p>
           </a>
-          <a href="_" className="fourComponentContainer-items">
+          <a href="_">
             <i class="fa fa-address-card-o"></i>
             <h2>Serials</h2>
             <p>

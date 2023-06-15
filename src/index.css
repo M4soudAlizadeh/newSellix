@@ -47,19 +47,40 @@
 
 /* start make and merge sell & fraud & market & payment component style */
 .fourComponentContainer {
-  @apply flex flex-row-reverse items-start justify-between w-full px-2 mx-auto my-60;
+  @apply flex flex-row-reverse items-start justify-between w-full px-2 mx-auto my-60 mdMax:flex-col mdMax:my-20 mdMax:px-6 mdMax:items-center;
 }
 .fourComponentContainer-imgs {
-  @apply relative max-w-[520px] w-[45%] flex items-end;
+  @apply relative max-w-[520px] w-[45%] flex items-end mdMax:w-full mdMax:mt-12 mdMax:ml-auto;
 }
 .fourComponentContainer-imgs_first {
   @apply absolute -z-10 top-[-2rem] object-cover max-w-3xl w-full transform scale-125;
 }
 .fourComponentContainer-imgs_sec {
-  @apply w-full max-w-md h-[600px] object-cover;
+  @apply object-cover w-full max-w-md rounded-lg;
 }
-.fourComponentContainer-items {
-  @apply w-1/2 cursor-pointer;
+.fourComponentContainer_deatailCont {
+  @apply w-[calc(55%-1rem)] mdMax:w-full;
+}
+.fourComponentContainer_deatailCont div {
+  @apply my-6 text-[40px] leading-[48px] font-extrabold mdMax:text-2xl mdMax:mb-3;
+}
+.fourComponentContainer_deatailCont p {
+  @apply mb-16 text-lg font-normal mdMax:text-sm mdMax:mb-8;
+}
+.fourComponentContainer-itemsContainer {
+  @apply flex flex-wrap gap-y-8 gap-x-14 mdMax:gap-2 mdMax:!my-0;
+}
+.fourComponentContainer-itemsContainer a {
+  @apply w-[calc(50%-2rem)] cursor-pointer mdMax:w-full;
+}
+.fourComponentContainer-itemsContainer i {
+  @apply mb-5 mdMax:text-sm mdMax:mb-3;
+}
+.fourComponentContainer-itemsContainer h2 {
+  @apply mb-4 text-xl font-normal leading-6 mdMax:text-base mdMax:leading-5 mdMax:mb-3 mdMax:font-semibold;
+}
+.fourComponentContainer-itemsContainer p {
+  @apply text-base font-normal mdMax:text-sm mdMax:!mb-0;
 }
 
 /* end make and merge sell & fraud & market & payment component style */
