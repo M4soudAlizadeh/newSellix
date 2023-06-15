@@ -1,12 +1,10 @@
-import classes from "./PowerSection.module.css";
-
 const PowerSection = () => {
   return (
-    <div className={classes["MainPage__PowerSection"]}>
-      <p>
+    <div className="flex flex-col items-center justify-center w-full py-28 bg-power-pattern text-whiteBtnBgColor">
+      <p className="text-2xl font-extrabold text-center mdMax:text-xl">
         Powering payments for over <b>250,000</b> businesses
       </p>
-      <div>
+      <div className="power">
         <img
           src="https://cdn.sellix.io/static/landing/new/main/promise/stripe.svg"
           alt="stripe"
@@ -41,7 +39,9 @@ const PowerSection = () => {
           alt="ethereum"
         />
       </div>
-      <a href="_">and many more...</a>
+      <a href="_" className="font-medium ">
+        and many more...
+      </a>
     </div>
   );
 };

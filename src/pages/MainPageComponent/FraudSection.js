@@ -1,4 +1,3 @@
-// import classes from "./FraudSection.module.css";
 const FraudSection = () => {
   return (
     <div className="fourComponentContainer">

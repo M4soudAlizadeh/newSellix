@@ -1,4 +1,3 @@
-// import classes from "./MarcketSection.module.css";
 const MarcketSection = () => {
   return (
     <div className="flex-row-reverse fourComponentContainer">

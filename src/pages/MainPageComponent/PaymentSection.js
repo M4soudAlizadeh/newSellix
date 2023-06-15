@@ -1,4 +1,3 @@
-// import classes from "./PaymentSection.module.css";
 const PaymentSection = () => {
   return (
     <div className="fourComponentContainer">

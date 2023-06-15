@@ -42,7 +42,12 @@ module.exports = {
     variants: {
       backgroundColor: ["responsive", "hover", "focus", "active"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "power-pattern":
+          "url('https://cdn.sellix.io/static/landing/new/main/promise/something.svg')",
+      },
+    },
   },
   plugins: [],
 };

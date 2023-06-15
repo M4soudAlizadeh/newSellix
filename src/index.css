@@ -84,6 +84,14 @@
 }
 
 /* end make and merge sell & fraud & market & payment component style */
+/* start Power component style */
+.power {
+  @apply flex flex-wrap items-center justify-center max-w-[900px] py-12 gap-x-12 mdMax:gap-6;
+}
+.power img {
+  @apply mb-8 mdMax:mb-0 mdMax:w-32;
+}
+/* end Power component style */
 
 @tailwind utilities;
 body {
