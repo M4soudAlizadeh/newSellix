@@ -6,9 +6,9 @@
   top: 0;
   width: 100%;
   height: 100%;
-  /* background-image: url(https://cdn.sellix.io/static/landing/new/main/main/top-back.svg);
+  background-image: url(https://cdn.sellix.io/static/landing/new/main/main/top-back.svg);
   background-repeat: no-repeat;
-  background-position: center; */
+  background-position: center;
   z-index: -1;
   left: 50%;
   transform: translateX(-50%);

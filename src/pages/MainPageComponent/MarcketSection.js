@@ -1,7 +1,7 @@
 // import classes from "./MarcketSection.module.css";
 const MarcketSection = () => {
   return (
-    <div className="fourComponentContainer">
+    <div className="flex-row-reverse fourComponentContainer">
       <div className="fourComponentContainer_deatailCont">
         <div>Market</div>
         <p>

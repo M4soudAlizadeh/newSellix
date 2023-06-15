@@ -1,7 +1,7 @@
 // import classes from "./SellSection.module.css";
 const SellSection = () => {
   return (
-    <div className="fourComponentContainer">
+    <div className="flex-row-reverse fourComponentContainer">
       <div className="fourComponentContainer_deatailCont">
         <div>Sell</div>
         <p>

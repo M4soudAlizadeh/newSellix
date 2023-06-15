@@ -15,10 +15,6 @@ import classes from "./MainPage.module.css";
 const MainPage = () => {
   return (
     <div className={classes["MainPage"]}>
-      {/* <img
-        className="absolute top-0 object-cover -z-10"
-        src="https://cdn.sellix.io/static/landing/new/main/main/top-back.svg"
-      /> */}
       <Nav />
       <BanerSection />
       <VideoSection />
