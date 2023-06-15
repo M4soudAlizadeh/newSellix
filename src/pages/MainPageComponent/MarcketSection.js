@@ -1,18 +1,13 @@
-import classes from "./MarcketSection.module.css";
 const MarcketSection = () => {
   return (
-    <div className={classes["MainPage__MarcketCrypto"]}>
-      <img
-        src="https://cdn.sellix.io/static/landing/new/main/market-pic.png"
-        alt="marcket img"
-      />
-      <div className={classes["MainPage__MarcketCrypto--title"]}>
-        <h1>Market</h1>
+    <div className="fourComponentContainer">
+      <div className="fourComponentContainer_deatailCont">
+        <div>Market</div>
         <p>
           Replace dozens of tools, save money, and market your entire ecommerce
           business from anywhere with one simple platform.
         </p>
-        <div className={classes["MainPage__MarcketCrypto--title-package"]}>
+        <div className="fourComponentContainer-itemsContainer">
           <a href="_">
             <i class="fa fa-id-card-alt"></i>
             <h2>Email Marketing</h2>
@@ -46,6 +41,18 @@ const MarcketSection = () => {
             </p>
           </a>
         </div>
+      </div>
+      <div className="fourComponentContainer-imgs">
+        <img
+          className="right-60 fourComponentContainer-imgs_first"
+          src="https://cdn.sellix.io/static/landing/new/main/market-back.svg"
+          alt="three marcket img"
+        />
+        <img
+          className="fourComponentContainer-imgs_sec"
+          src="https://cdn.sellix.io/static/landing/new/main/market-pic.png"
+          alt="marcket img"
+        />
       </div>
     </div>
   );

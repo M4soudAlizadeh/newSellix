@@ -1,4 +1,3 @@
-import classes from "./SellSection.module.css";
 const SellSection = () => {
   return (
     <div className="fourComponentContainer">

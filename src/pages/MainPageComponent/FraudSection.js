@@ -1,14 +1,13 @@
-import classes from "./FraudSection.module.css";
 const FraudSection = () => {
   return (
-    <div className={classes["MainPage__FraudCrypto"]}>
-      <div className={classes["MainPage__FraudCrypto--title"]}>
-        <h1>Fraud Shield</h1>
+    <div className="flex-row fourComponentContainer">
+      <div className="fourComponentContainer_deatailCont">
+        <div>Fraud Shield</div>
         <p>
           Stop blocking legitimate customers, and start blocking fraudulent
           customers. Your shop is protected all day, all night.
         </p>
-        <div className={classes["MainPage__FraudCrypto--title-package"]}>
+        <div className="fourComponentContainer-itemsContainer">
           <a href="_">
             <i class="fa fa-id-card-alt"></i>
             <h2>Block</h2>
@@ -35,10 +34,18 @@ const FraudSection = () => {
           </a>
         </div>
       </div>
-      <img
-        src="https://cdn.sellix.io/static/landing/new/main/fraud-pic.png"
-        alt="Fraud img"
-      />
+      <div className="fourComponentContainer-imgs">
+        <img
+          className="right-60 fourComponentContainer-imgs_first left-1/2"
+          src="https://cdn.sellix.io/static/landing/new/main/fraud-back.svg"
+          alt="four Fraud img"
+        />
+        <img
+          className="fourComponentContainer-imgs_sec"
+          src="https://cdn.sellix.io/static/landing/new/main/fraud-pic.png"
+          alt="Fraud img"
+        />
+      </div>
     </div>
   );
 };

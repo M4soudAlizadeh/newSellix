@@ -1,14 +1,13 @@
-import classes from "./PaymentSection.module.css";
 const PaymentSection = () => {
   return (
-    <div className={classes["MainPage__PaymentCrypto"]}>
-      <div className={classes["MainPage__PaymentCrypto--title"]}>
-        <h1>Payments</h1>
+    <div className="flex-row fourComponentContainer">
+      <div className="fourComponentContainer_deatailCont">
+        <div>Payments</div>
         <p>
           Straightforward revenue collection. Integrate a gateway and collect
           earnings directly in your bank account, or crypto wallet.
         </p>
-        <div className={classes["MainPage__PaymentCrypto--title-package"]}>
+        <div className="fourComponentContainer-itemsContainer">
           <a href="_">
             <i class="fa fa-id-card-alt"></i>
             <h2>Crypto</h2>
@@ -43,10 +42,18 @@ const PaymentSection = () => {
           </a>
         </div>
       </div>
-      <img
-        src="https://cdn.sellix.io/static/landing/new/main/payments-pic.png"
-        alt="payment img"
-      />
+      <div className="fourComponentContainer-imgs">
+        <img
+          className="right-60 fourComponentContainer-imgs_first left-1/2"
+          src="https://cdn.sellix.io/static/landing/new/main/payments-back.svg"
+          alt="two payment img"
+        />
+        <img
+          className="fourComponentContainer-imgs_sec"
+          src="https://cdn.sellix.io/static/landing/new/main/payments-pic.png"
+          alt="payment img"
+        />
+      </div>
     </div>
   );
 };
