@@ -1,6 +1,7 @@
+// import classes from "./FraudSection.module.css";
 const FraudSection = () => {
   return (
-    <div className="flex-row fourComponentContainer">
+    <div className="fourComponentContainer">
       <div className="fourComponentContainer_deatailCont">
         <div>Fraud Shield</div>
         <p>
@@ -36,7 +37,7 @@ const FraudSection = () => {
       </div>
       <div className="fourComponentContainer-imgs">
         <img
-          className="right-60 fourComponentContainer-imgs_first left-1/2"
+          className="fourComponentContainer-imgs_first"
           src="https://cdn.sellix.io/static/landing/new/main/fraud-back.svg"
           alt="four Fraud img"
         />

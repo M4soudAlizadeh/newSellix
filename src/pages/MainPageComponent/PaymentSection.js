@@ -1,6 +1,7 @@
+// import classes from "./PaymentSection.module.css";
 const PaymentSection = () => {
   return (
-    <div className="flex-row fourComponentContainer">
+    <div className="fourComponentContainer">
       <div className="fourComponentContainer_deatailCont">
         <div>Payments</div>
         <p>
@@ -44,7 +45,7 @@ const PaymentSection = () => {
       </div>
       <div className="fourComponentContainer-imgs">
         <img
-          className="right-60 fourComponentContainer-imgs_first left-1/2"
+          className="fourComponentContainer-imgs_first"
           src="https://cdn.sellix.io/static/landing/new/main/payments-back.svg"
           alt="two payment img"
         />

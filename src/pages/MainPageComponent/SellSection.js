@@ -1,3 +1,4 @@
+// import classes from "./SellSection.module.css";
 const SellSection = () => {
   return (
     <div className="fourComponentContainer">
@@ -44,7 +45,7 @@ const SellSection = () => {
       </div>
       <div className="fourComponentContainer-imgs">
         <img
-          className="right-60 fourComponentContainer-imgs_first"
+          className="fourComponentContainer-imgs_first"
           src="https://cdn.sellix.io/static/landing/new/main/sell-back.svg"
           alt="one sell img"
         />

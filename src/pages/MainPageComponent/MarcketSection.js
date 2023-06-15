@@ -1,3 +1,4 @@
+// import classes from "./MarcketSection.module.css";
 const MarcketSection = () => {
   return (
     <div className="fourComponentContainer">
@@ -44,7 +45,7 @@ const MarcketSection = () => {
       </div>
       <div className="fourComponentContainer-imgs">
         <img
-          className="right-60 fourComponentContainer-imgs_first"
+          className="fourComponentContainer-imgs_first"
           src="https://cdn.sellix.io/static/landing/new/main/market-back.svg"
           alt="three marcket img"
         />
