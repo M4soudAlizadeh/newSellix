@@ -45,6 +45,25 @@
 }
 /* end make and merge two App and Baner component style */
 
+/* start make and merge sell & fraud & market & payment component style */
+.fourComponentContainer {
+  @apply flex flex-row-reverse items-start justify-between w-full px-2 mx-auto my-60;
+}
+.fourComponentContainer-imgs {
+  @apply relative max-w-[520px] w-[45%] flex items-end;
+}
+.fourComponentContainer-imgs_first {
+  @apply absolute -z-10 top-[-2rem] object-cover max-w-3xl w-full transform scale-125;
+}
+.fourComponentContainer-imgs_sec {
+  @apply w-full max-w-md h-[600px] object-cover;
+}
+.fourComponentContainer-items {
+  @apply w-1/2 cursor-pointer;
+}
+
+/* end make and merge sell & fraud & market & payment component style */
+
 @tailwind utilities;
 body {
   margin: 0;
