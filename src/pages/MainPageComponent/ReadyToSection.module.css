@@ -1,4 +1,4 @@
-.MainPage__ReadyToSection {
+/* .MainPage__ReadyToSection {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +31,7 @@
   line-height: 32px;
   margin-bottom: 2.25rem;
   padding-right: 7rem;
-}
+} */
 /* .MainPage__ReadyToSection--title_btns {
   margin-bottom: 1.5rem;
 } */
@@ -55,7 +55,7 @@
   color: white;
 } */
 
-.MainPage__ReadyToSection--img_digital {
+/* .MainPage__ReadyToSection--img_digital {
   width: 27%;
   padding-right: 5rem;
 }
@@ -118,4 +118,4 @@
     padding: 0.7rem 1.5rem;
     font-size: 0.8rem;
   }
-}
+} */

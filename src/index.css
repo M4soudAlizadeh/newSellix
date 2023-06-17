@@ -126,6 +126,19 @@
 }
 /* end information component style */
 
+/* start Redyto component style */
+.redyDetail {
+  @apply w-3/5 text-whiteBtnBgColor font-Inter lgMax3:w-full lgMax3:text-center lgMax3:py-8;
+}
+.redyDetail h1 {
+  @apply text-[88px] leading-[106px] font-extrabold mb-6 mdMax:text-[40px] mdMax:mb-2;
+}
+.redyDetail p {
+  @apply text-xl leading-8 mb-9 pr-28 lgMax3:px-8 mdMax:text-xl;
+}
+
+/* end Redyto component style */
+
 @tailwind utilities;
 body {
   margin: 0;

@@ -49,6 +49,8 @@ module.exports = {
       backgroundImage: {
         "power-pattern":
           "url('https://cdn.sellix.io/static/landing/new/main/promise/something.svg')",
+        "behind-ReadytoSell":
+          "url('https://cdn.sellix.io/static/landing/new/ready-back.svg')",
       },
     },
   },

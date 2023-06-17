@@ -1,9 +1,7 @@
-import classes from "./ReadyToSection.module.css";
-
 const ReadyToSection = () => {
   return (
-    <div className={classes["MainPage__ReadyToSection"]}>
-      <div className={classes["MainPage__ReadyToSection--title"]}>
+    <div className="flex items-center justify-between px-8 py-8 bg-behind-ReadytoSell lgMax3:px-0 lgMax3:flex-col lgMax3:justify-start lgMax3:items-center lgMax3:overflow-hidden lgMax3:max-h-[600px] lgMax3:relative">
+      <div className="redyDetail">
         <h1>Ready to Sell?</h1>
         <p>
           Being your own boss has never been this rewarding. Launch your
@@ -22,7 +20,7 @@ const ReadyToSection = () => {
         </div>
       </div>
       <img
-        className={classes["MainPage__ReadyToSection--img_digital"]}
+        className="w-2/5 lgMax3:w-full lgMax3:absolute lgMax3:top-40 "
         src="https://cdn.sellix.io/static/landing/new/ready-globe.svg"
         alt="globe app"
       />

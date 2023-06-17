@@ -1,7 +1,7 @@
 const InformationSection = () => {
   return (
     <div className="flex justify-center w-full mdMax:flex-col">
-      <div className="w-[30%] pr-8 pl-4 pt-20 bg-[#F5F5F5] pb-56 lgMax3:pb-16 lgMax3:w-full ">
+      <div className="w-[30%] pr-8 pl-4 pt-20 bg-[#F5F5F5] pb-56 lgMax3:pb-16 mdMax:w-full ">
         <div className="informationDetail">
           <img
             className="h-5 w-18"
