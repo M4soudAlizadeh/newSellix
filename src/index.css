@@ -93,6 +93,39 @@
 }
 /* end Power component style */
 
+/* start information component style */
+.informationDetail {
+  @apply w-full pl-5;
+}
+.informationDetail span {
+  @apply block mt-8 text-base border-b-[1px] border-b-[#DCDCDC] pb-4;
+}
+.informationDetail p {
+  @apply my-4 text-[13px] font-Inter border-b-[1px] border-b-[#DCDCDC] pb-4;
+}
+.informationDetail label {
+  @apply pb-4 mb-6 text-xs font-Inter;
+}
+.informationDetail div {
+  @apply my-8;
+}
+.informationDetail div button {
+  @apply my-2;
+}
+.informationDetail a {
+  @apply max-w-[280px] block w-10/12 py-4 px-4 ml-2 border-[1px] shadow-sm bg-whiteBtnBgColor rounded-xl mdMax:max-w-none mdMax:w-[90%];
+}
+.informationLinks {
+  @apply w-[calc(100%-30%)] flex flex-wrap gap-8 pl-12 pt-14 pb-44 lgMax3:pb-16 mdMax:w-full mdMax:pl-6;
+}
+.informationLinks div {
+  @apply flex flex-col justify-center w-3/12 mdMax:w-2/5;
+}
+.informationLinks div h3 {
+  @apply mb-4 font-semibold;
+}
+/* end information component style */
+
 @tailwind utilities;
 body {
   margin: 0;

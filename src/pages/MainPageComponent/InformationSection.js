@@ -1,32 +1,31 @@
-import classes from "./InformationSection.module.css";
 const InformationSection = () => {
   return (
-    <div className={classes["MainPage__InformationSection"]}>
-      <div className={classes["MainPage__InformationSection--detail"]}>
-        <div className={classes["MainPage__InformationSection--detail_items"]}>
-          <h1>Sellix</h1>
-          <p>Sellix S.R.L. Via del Monte 1, Bologna 40126 P.IVA 03982251203</p>
+    <div className="flex justify-center w-full mdMax:flex-col">
+      <div className="w-[30%] pr-8 pl-4 pt-20 bg-[#F5F5F5] pb-56 lgMax3:pb-16 lgMax3:w-full ">
+        <div className="informationDetail">
+          <img
+            className="h-5 w-18"
+            src="https://asset.brandfetch.io/idMweYxyV_/idl8-Z71mD.svg"
+            alt="sellix logo"
+          />
+          <span>
+            Sellix S.R.L. Via del Monte 1, Bologna 40126 P.IVA 03982251203
+          </span>
           <p>
             We take both the security and experience of our buyers very
             seriously. To report any seller abuse or misuse, please use our
             dedicated report page.
           </p>
           <p>Take a look at our roadmap to see what will be released soon.</p>
-          <p>Sellix Business for iOS & Android</p>
-          <div className="mt-5">
-            <button className="btnBody btnBlack">App Store</button>
-            <button className="btnBody btnBlack">Google Play</button>
+          <label>Sellix Business for iOS & Android</label>
+          <div>
+            <button className="px-2 btnBody btnBlack">App Store</button>
+            <button className="px-2 btnBody btnBlack">Google Play</button>
           </div>
-          <div
-            className={
-              classes["MainPage__InformationSection--detail_items-supp"]
-            }
-          >
-            Get Support
-          </div>
+          <a href="_">Get Support</a>
         </div>
       </div>
-      <div className={classes["MainPage__InformationSection--Links"]}>
+      <div className="informationLinks">
         <div>
           <h3>E-Commerce</h3>
           <a href="_">Downloads</a>

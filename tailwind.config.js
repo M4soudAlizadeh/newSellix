@@ -22,6 +22,9 @@ module.exports = {
       lgMax2: { max: "1109px" },
       // => @media (max-width: 1097px) { ... }
 
+      lgMax3: { max: "1024px" },
+      // => @media (max-width: 1097px) { ... }
+
       xl: "1280px",
       // => @media (min-width: 1280px) { ... }
 
