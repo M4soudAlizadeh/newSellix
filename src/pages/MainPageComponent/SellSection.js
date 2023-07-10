@@ -9,7 +9,7 @@ const SellSection = () => {
         </p>
         <div className="fourComponentContainer-itemsContainer">
           <a href="_">
-            <i class="fa fa-address-card-o"></i>
+            <i className="fa fa-address-card-o"></i>
             <h2>Software</h2>
             <p>
               Built for developers and businesses. We’ll host unlimited files up
@@ -17,7 +17,7 @@ const SellSection = () => {
             </p>
           </a>
           <a href="_">
-            <i class="fa fa-address-card-o"></i>
+            <i className="fa fa-address-card-o"></i>
             <h2>Services</h2>
             <p>
               Supercharge your creativity and sell directly through a safe, and
@@ -25,7 +25,7 @@ const SellSection = () => {
             </p>
           </a>
           <a href="_">
-            <i class="fa fa-address-card-o"></i>
+            <i className="fa fa-address-card-o"></i>
             <h2>Subscriptions</h2>
             <p>
               If it’s a daily, weekly, monthly, or yearly plan, we support it
@@ -33,7 +33,7 @@ const SellSection = () => {
             </p>
           </a>
           <a href="_">
-            <i class="fa fa-address-card-o"></i>
+            <i className="fa fa-address-card-o"></i>
             <h2>Serials</h2>
             <p>
               Sell accounts, license keys, and activation codes. Save it and

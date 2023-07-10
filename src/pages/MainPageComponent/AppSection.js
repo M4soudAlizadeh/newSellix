@@ -11,11 +11,11 @@ const AppSection = () => {
         </p>
         <div className="mt-10 md:mt-5 sm:mt-0">
           <button className="mb-5 btnBody btnBlack">
-            <i class="mr-2 fa fa-apple"></i>
+            <i className="mr-2 fa fa-apple"></i>
             App Store
           </button>
           <button className="btnBody btnBlack">
-            <i class="fab fa-google-play"></i>
+            <i className="fab fa-google-play"></i>
             Google Play
           </button>
         </div>

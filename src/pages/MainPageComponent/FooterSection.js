@@ -5,9 +5,9 @@ const FooterSection = () => {
         Copyright 2023, Sellix SRL All Rights Reserved.
       </p>
       <div className="flex justify-around w-32">
-        <i class="fa fa-github" style={{ fontSize: "20px" }}></i>
-        <i class="fa fa-facebook" style={{ fontSize: "20px" }}></i>
-        <i class="fa fa-youtube" style={{ fontSize: "20px" }}></i>
+        <i className="fa fa-github" style={{ fontSize: "20px" }}></i>
+        <i className="fa fa-facebook" style={{ fontSize: "20px" }}></i>
+        <i className="fa fa-youtube" style={{ fontSize: "20px" }}></i>
       </div>
     </div>
   );

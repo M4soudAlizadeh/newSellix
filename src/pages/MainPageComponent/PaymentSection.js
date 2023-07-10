@@ -9,7 +9,7 @@ const PaymentSection = () => {
         </p>
         <div className="fourComponentContainer-itemsContainer">
           <a href="_">
-            <i class="fa fa-id-card-alt"></i>
+            <i className="fa fa-id-card-alt"></i>
             <h2>Crypto</h2>
             <p>
               Utilize our built-in crypto infrastructure. Support for BTC, ETH,
@@ -17,7 +17,7 @@ const PaymentSection = () => {
             </p>
           </a>
           <a href="_">
-            <i class="fa fa-id-card-alt"></i>
+            <i className="fa fa-id-card-alt"></i>
             <h2>Fees</h2>
             <p>
               Unlike other popular platforms, Sellix takes the lowest fees in
@@ -25,7 +25,7 @@ const PaymentSection = () => {
             </p>
           </a>
           <a href="_">
-            <i class="fa fa-id-card-alt"></i>
+            <i className="fa fa-id-card-alt"></i>
             <h2>Gateways</h2>
             <p>
               Sell globally with PayPal, Stripe, CashApp, and 12+ other popular
@@ -33,7 +33,7 @@ const PaymentSection = () => {
             </p>
           </a>
           <a href="_">
-            <i class="fa fa-id-card-alt"></i>
+            <i className="fa fa-id-card-alt"></i>
             <h2>Payouts</h2>
             <p>
               We’ll do the math and hard work for you. All with a simple,

@@ -9,7 +9,7 @@ const FraudSection = () => {
         </p>
         <div className="fourComponentContainer-itemsContainer">
           <a href="_">
-            <i class="fa fa-id-card-alt"></i>
+            <i className="fa fa-id-card-alt"></i>
             <h2>Block</h2>
             <p>
               Setup blacklist rules based on Email, Country Code, IP, or host or
@@ -17,7 +17,7 @@ const FraudSection = () => {
             </p>
           </a>
           <a href="_">
-            <i class="fa fa-id-card-alt"></i>
+            <i className="fa fa-id-card-alt"></i>
             <h2>Filters</h2>
             <p>
               Advanced filters designed to protect your sales without manual
@@ -25,7 +25,7 @@ const FraudSection = () => {
             </p>
           </a>
           <a href="_">
-            <i class="fa fa-id-card-alt"></i>
+            <i className="fa fa-id-card-alt"></i>
             <h2>Auth</h2>
             <p>
               Support for multi-method authentication keeping your account
